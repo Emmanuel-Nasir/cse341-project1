@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Emmanuel-Nasir/cse341-project1/issues"
   },
-  "homepage": "https://github.com/Emmanuel-Nasir/cse341-project1#readme"
+  "homepage": "https://github.com/Emmanuel-Nasir/cse341-project1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
