@@ -1,0 +1,36 @@
+### GET all users
+GET http://localhost:3001/users
+
+
+### GET single contact
+GET http://localhost:3001/users/6920a44d43c5ed190bce9c4a
+
+
+### POST - Create new contact
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+  "firstName": "Peter",
+  "lastName": "Okoro",
+  "email": "peter.okoro@example.com",
+  "favoriteColor": "Yellow",
+  "birthday": "2002-05-12"
+}
+
+
+### PUT - Update contact
+PUT http://localhost:3001/users/6920a44d43c5ed190bce9c4a
+Content-Type: application/json
+
+{
+  "firstName": "Emmanuel",
+  "lastName": "Nasir",
+  "email": "newemail@example.com",
+  "favoriteColor": "Black",
+  "birthday": "2003-04-23"
+}
+
+
+### DELETE - Delete contact
+DELETE http://localhost:3001/users/6920a8b9ceffc1cdb3f6e12e
