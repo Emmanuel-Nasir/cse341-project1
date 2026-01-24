@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users Api",
-    "description": "Users Api",
+    "title": "Contacts Api",
+    "description": "Contacts Api",
     "version": "1.0.0"
   },
   "host": "cse341-project1-eelb.onrender.com",
@@ -24,8 +24,8 @@
         }
       }
     },
- 
-    "/users/": {
+
+    "/contact/": {
       "get": {
         "description": "",
         "produces": [
@@ -75,7 +75,7 @@
         }
       }
     },
-    "/users/{id}": {
+    "/contact/{id}": {
       "get": {
         "description": "",
         "produces": [
